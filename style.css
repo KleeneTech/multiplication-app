@@ -1,3 +1,7 @@
+/* * {
+  padding: 0;
+  box-sizing: border-box;
+} */
 body {
   margin: 0;
   display: flex;
@@ -13,4 +17,37 @@ body {
   padding: 20px;
   background-color: white;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 2rem;
+  text-align: center;
+  border: 3px solid rgb(20, 202, 20);
+  color: rgb(20, 202, 20);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.input::placeholder {
+  font-family: sans-serif;
+  color: lightgrey;
+}
+
+.btn {
+  color: white;
+  background-color: rgb(20, 202, 20);
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin: 20px 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
